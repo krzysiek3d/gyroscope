@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #434343;
+    background-image: linear-gradient(#434343, #282828);
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #ffffff;
+}
+
+.bg {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
+    background-size: 55px 55px;
+}
+.point{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    /* opacity: 0;
+    visibility: hidden; */
+}
+.p1{
+    @extend .point;
+    top: 165px;
+    left: 30px;
+}
+.p2{
+    @extend .point;
+    top: 165px;
+    left: 110px;
+}
+.p3{
+    @extend .point;
+    top: 165px;
+    left: 195px;
+}
+.p4{
+    @extend .point;
+    top: 165px;
+    left: 275px;
+}
+.p5{
+    @extend .point;
+    top: 250px;
+    left: 30px;
+}
+.p6{
+    @extend .point;
+    top: 250px;
+    left: 110px;
+}
+.p7{
+    @extend .point;
+    top: 250px;
+    left: 195px;
+}
+.p8{
+    @extend .point;
+    top: 250px;
+    left: 275px;
+}
+.p9{
+    @extend .point;
+    top: 330px;
+    left: 30px;
+}
+.p10{
+    @extend .point;
+    top: 330px;
+    left: 110px;
+}
+.p11{
+    @extend .point;
+    top: 330px;
+    left: 195px;
+}
+.p12{
+    @extend .point;
+    top: 330px;
+    left: 275px;
+}
+.p13{
+    @extend .point;
+    top: 415px;
+    left: 30px;
+}
+.p14{
+    @extend .point;
+    top: 415px;
+    left: 110px;
+}
+.p15{
+    @extend .point;
+    top: 415px;
+    left: 195px;
+}
+.p16{
+    @extend .point;
+    top: 415px;
+    left: 275px;
+}
+.ball {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    /* margin-top: -25px;
+    margin-left: -25px; */
+    background-color: lime;
+    border-radius: 50%;
+}
+
+.input {
+    display: flex;
+    font-size: 10px;
+}
+
+.score {
+    position: absolute;
+    display: flex;
+    top: 15px;
+    right: 0;
+    width: 150px;
+    height: 40px;
+}

@@ -1,0 +1,15 @@
+// Import Base elements base folder for all my base styles like html, body, p, a, h1, h2.
+// I also keep my variables and mixin files within this folder.
+@import 'base/override_variables';
+@import 'base/bootstrap_custom';
+// Import Layouts In my layout folder, I keep all my styles related to the layout of my website.
+// For example, header, section and footer. I also add the page specific scss files in this folder:
+// like about.scss, .services.scss and contact.scss.
+@import 'layout/aside';
+@import 'layout/header';
+@import 'layout/sections';
+@import 'layout/footer';
+//Import Modules All the scss files that include re-usable styles go to my modules folder.
+// For example navigation, sidebar, buttons, forms and carousel.
+@import 'modules/button';
+@import 'modules/navigation';
